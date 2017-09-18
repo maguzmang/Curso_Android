@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TareaDos</string>
+    <string name="msj_empty_text">No ingresaron texto</string>
+
+    <string name="cbx_atm">Cajero</string>
+    <string name="cbx_bag">Bolsa</string>
+    <string name="cbx_basket">Canasta</string>
+    <string name="cbx_box">Caja</string>
+    <string name="cbx_briefcase">Maletin</string>
+    <string name="cbx_calculator">Calculadora</string>
+    <string name="capturar_texto">Capturar Texto</string>
+    <string name="mostrar_imagenes">Manejo imágenes</string>
+    <string name="seleccionar_imagenes">Seleccionar imágen</string>
+    <string name="listado_imagenes">Listado de imágenes</string>
+    <string name="aceptar">Aceptar</string>
+
+    <string-array name="selected_options">
+        <item>Cajero</item>
+        <item>Bolsa</item>
+        <item>Canasta</item>
+        <item>Caja</item>
+        <item>Maletin</item>
+        <item>Calculadora</item>
+    </string-array>
+</resources>

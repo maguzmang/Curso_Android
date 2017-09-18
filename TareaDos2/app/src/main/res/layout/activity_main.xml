@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="cambiarPantalla"
+        android:drawableLeft="@drawable/texto"
+        android:text="@string/capturar_texto" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="cambiarPantallaImg"
+        android:drawableLeft="@drawable/seleccion"
+        android:text="@string/mostrar_imagenes" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/imagen"
+        android:onClick="cambiarPantallaSpinner"
+        android:text="@string/seleccionar_imagenes" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="cambiarPantallaListView"
+        android:drawableLeft="@drawable/lista"
+        android:text="@string/listado_imagenes" />
+
+</LinearLayout>
