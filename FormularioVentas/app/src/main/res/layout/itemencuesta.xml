@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rl_item_encuesta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/click">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/iv_item_image"
+                android:layout_alignTop="@+id/tv_nombre_cliente"
+                android:layout_alignBottom="@+id/tv_telefono_cliente"
+                android:paddingLeft="16dp"
+                android:src="@drawable/ajustes"/>
+
+
+
+            <TextView
+                android:id="@+id/tv_nombre_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="72dp"
+                android:paddingRight="16dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorNegro"
+                android:text="@string/text_nombre_cliente"
+                android:textStyle="bold|normal" />
+
+            <TextView
+                android:id="@+id/tv_direccion_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="72dp"
+                android:paddingRight="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorNegro"
+                android:layout_below="@+id/tv_nombre_cliente"
+                android:text="@string/text_direccion_cliente"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_telefono_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="72dp"
+                android:paddingRight="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorNegro"
+                android:layout_below="@+id/tv_direccion_cliente"
+                android:text="@string/text_telefono_cliente"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

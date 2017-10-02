@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#73ad34</color>
+    <color name="colorPrimaryDark">#73ad34</color>
+    <color name="colorAccent">#3a762c</color>
+
+    <color name="colorMostaza">#C88E09</color>
+    <color name="colorBlanco">#ffffff</color>
+
+    <color name="colorCafe">#493615</color>
+    <color name="color0Cafe">#99BCAAA4</color>
+
+    <color name="colorNegroT">#1A000000</color>
+    <color name="colorNegro">#000000</color>
+
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hame.maguzman.formularioventas.activitys.FrmInformacion"
+    tools:showIn="@layout/frminformacion"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_nombre_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/fondotext"
+            android:textStyle="bold|normal">
+
+            <EditText
+                android:id="@+id/et_nombre_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_height"
+                android:inputType="text"
+                android:hint="@string/text_nombre_cliente" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_direccion_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/fondotext"
+            android:textStyle="bold|normal">
+
+            <EditText
+                android:id="@+id/et_direccion_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_height"
+                android:inputType="text"
+                android:hint="@string/text_direccion_cliente" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_nit_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/fondotext"
+            android:textStyle="bold|normal">
+
+            <EditText
+                android:id="@+id/et_nit_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_height"
+                android:inputType="text"
+                android:hint="@string/text_nit_cliente" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_telefono_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/fondotext"
+            android:textStyle="bold|normal">
+
+            <EditText
+                android:id="@+id/et_telefono_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_height"
+                android:inputType="phone"
+                android:hint="@string/text_telefono_cliente" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_correo_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/fondotext"
+            android:textStyle="bold|normal">
+
+            <EditText
+                android:id="@+id/et_correo_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_height"
+                android:inputType="textEmailAddress"
+                android:hint="@string/text_correo_cliente" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_contacto_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/fondotext"
+            android:textStyle="bold|normal">
+
+            <EditText
+                android:id="@+id/et_contacto_cliente"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_height"
+                android:inputType="text"
+                android:hint="@string/text_nombre_contacto" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
